@@ -1,1 +1,213 @@
+#overall-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+#my-header {
+    z-index: 10;
+    background-color: white;
+}
+
+#my_nav_item {
+    padding-top: 20px;
+}
+
+#my_nav {
+    background-color: white;
+    border-color: white;
+    border-bottom: 2px;
+    border-bottom-color: gray;
+}
+
+
+#nav_bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+#nav_bar a {
+    padding: 20px 5px;
+    font-family: cursive sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition-property: border-top;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    color: black;
+    
+}
+
+#nav_bar a:hover {
+    border-top: solid 5px blue;
+    text-decoration: none;
+    color: blue;
+}
+
+#contact-header {
+    background-color: rgb(174, 189, 179);
+    padding: 2px 3px 3px 3px;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+#contact-header li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+#contact-header a {
+    color: black;
+    font-size: 13px;
+    padding-top: 10%;
+    font-weight: bold;
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    color: black;
+}
+
+#contact-header a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+#my_slider {
+    background-image: url(http://www.softcom.ng/wp-content/uploads/2016/09/mtn-banner.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-bottom: 15%;
+}
+
+#slide_header {
+    position: relative;
+    top: 190px;
+    background-color: rgba(15, 12, 10, 0.3);
+    padding: 30px;
+    color: white;
+    
+}
+
+#slider-link {
+    padding: 10px 20px 10px 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#slider-link:hover {
+    text-decoration: none;
+    padding-left: 12px;
+}
+
+
+#hero_text {
+    text-align: center;
+    margin: 2% auto 5% auto;
+}
+
+#icon-holder {
+    text-align: center;
+}
+
+#icon-holder img {
+    margin: auto;
+}
+
+#labs_bg {
+    background-image: url(http://www.softcom.ng/wp-content/uploads/2016/08/horse.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5% 0;
+    color: white;
+    
+}
+
+#latest-thinking-image1 {
+    background-image: url(http://www.diamondbank.com/wp-content/uploads/2016/03/dii.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 160px 0 10px 0;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+#latest-thinking-image2 {
+    background-image: url(http://www.softcom.com.ng/sites/soft/files/styles/slideshow/public/slideshow%20images/accounting1.png);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 160px 0 10px 0;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+#latest-thinking-text {
+    background-color: rgba(15, 12, 10, 0.3);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    text-align: center;
+}
+
+#blurer {
+    background-color: rgba(11, 28, 255, 0.5);
+    padding: 10% 5%;
+}
+
+#blurer h1 {
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+#blurer a {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    line-height: 80px;
+}
+
+#blurer p {
+    font-size: 50px;
+    padding-bottom: 20%;
+}
+
+#next-steps-section {
+    margin: 2% auto 10% auto ;
+}
+
+footer {
+    background-color: rgb(26, 113, 232);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+    display: block;
+}
+
+hr {
+    width: 100px;
+    color: white;
+    margin: auto;
+}
+
+footer a {
+    color: white;
+}
+
 
