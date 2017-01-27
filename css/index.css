@@ -115,14 +115,30 @@
 
 #icon-holder {
     text-align: center;
+    transition: all ease-in-out 0.2s;
 }
 
 #icon-holder img {
     margin: auto;
 }
 
+#icon-holder:hover {
+    margin-top: -20px;
+}
+
+#icon-content {
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+
+#icon-holder a:hover {
+    text-decoration: none;
+}
+
 #labs_bg {
-    background-image: url(http://www.softcom.ng/wp-content/uploads/2016/08/horse.jpg);
+    background-image: url(https://pbs.twimg.com/media/Ck1Ovq5WgAAGy3c.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -138,6 +154,13 @@
     padding: 160px 0 10px 0;
     margin-bottom: 5%;
     border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#latest-thinking-image1:hover, #latest-thinking-image2:hover {
+    transform: scale(0.95);
 }
 
 #latest-thinking-image2 {
@@ -147,6 +170,9 @@
     padding: 160px 0 10px 0;
     margin-bottom: 5%;
     border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 #latest-thinking-text {
@@ -157,7 +183,7 @@
 }
 
 #blurer {
-    background-color: rgba(11, 28, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10% 5%;
 }
 
@@ -173,6 +199,16 @@
     padding: 5px 10px;
     border-radius: 8px;
     line-height: 80px;
+    transition-property: color;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#blurer a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
 }
 
 #blurer p {
@@ -182,6 +218,27 @@
 
 #next-steps-section {
     margin: 2% auto 10% auto ;
+}
+
+#next-steps-section p {
+    line-height: 40px;
+    font-family: fantasy sans-serif;
+    font-size: 18px;
+}
+
+#next-steps-section a {
+    color: white;
+    background-color: deepskyblue;
+    padding: 2%;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#next-steps-section a:hover {
+    background-color: skyblue;
+    text-decoration: none;
 }
 
 footer {
@@ -208,6 +265,15 @@ hr {
 
 footer a {
     color: white;
+    font-size: 16px;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
 }
 
+footer a:hover {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
 
